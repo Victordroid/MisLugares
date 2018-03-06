@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public AdaptadorLugares adaptador;
     private RecyclerView.LayoutManager layoutManager;
     MediaPlayer mp;
+    //comentario U6
 
 
     @Override
