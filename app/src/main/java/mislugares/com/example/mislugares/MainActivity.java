@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
     public AdaptadorLugares adaptador;
     private RecyclerView.LayoutManager layoutManager;
     MediaPlayer mp;
-    //comentario U6
+    String var;
+    int pos;
+    Bundle estado;
 
 
     @Override
@@ -187,5 +189,22 @@ public class MainActivity extends AppCompatActivity {
     @Override protected void onDestroy() {
         Toast.makeText(this, "onDestroy", Toast.LENGTH_SHORT).show();
         super.onDestroy();
+    }
+
+    @Override protected void onSaveInstanceState(Bundle estadoGuardado) {
+        super.onSaveInstanceState(estadoGuardado);
+        if (mp != null) {
+            int pos = mp.getCurrentPosition();
+            estadoGuardado.putInt("posicion", pos);
+            Toast.makeText(this, "onSaveInstanceState", Toast.LENGTH_SHORT).show();
+        }
+    }
+    @Override protected void onRestoreInstanceState(Bundle estadoGuardado) {
+        super.onRestoreInstanceState(estadoGuardado);
+        if (estadoGuardado != null && mp != null) {
+            int pos = estadoGuardado.getInt("posicion");
+            mp.seekTo(pos);
+            Toast.makeText(this, "onRestoreInstanceState", Toast.LENGTH_SHORT).show();
+        }
     }
 }
