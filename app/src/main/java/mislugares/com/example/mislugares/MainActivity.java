@@ -19,7 +19,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-//cambio
+
 public class MainActivity extends AppCompatActivity {
 
     private Button bAcercaDe;
