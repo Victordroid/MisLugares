@@ -33,8 +33,6 @@ public class MainActivity extends AppCompatActivity {
     int pos;
     Bundle estado;
 
-//borrado
-    //comentario despues de borrado
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
