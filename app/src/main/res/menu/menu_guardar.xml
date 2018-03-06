@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mislugares.com.example.mislugares.EdicionLugarActivity">
+    <item
+        android:id="@+id/guardar"
+        android:orderInCategory="10"
+        android:title="Guardar"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/cancelar"
+        android:orderInCategory="20"
+        android:title= "Cancelar"
+        app:showAsAction="ifRoom"/>
+</menu>
