@@ -1,8 +1,11 @@
 package mislugares.com.example.mislugares;
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.location.Location;
+import android.location.LocationManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -32,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     String var;
     int pos;
     Bundle estado;
+    private LocationManager manejador;
+    private Location mejorLocaliz;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        manejador = (LocationManager) getSystemService(LOCATION_SERVICE);
+        ultimaLocalizazion();
     }
 
     @Override
@@ -204,6 +211,24 @@ public class MainActivity extends AppCompatActivity {
             int pos = estadoGuardado.getInt("posicion");
             mp.seekTo(pos);
             Toast.makeText(this, "onRestoreInstanceState", Toast.LENGTH_SHORT).show();
+        }
+    }
+    void ultimaLocalizazion(){
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.
+                ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            if (manejador.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                actualizaMejorLocaliz(manejador.getLastKnownLocation(
+                        LocationManager.GPS_PROVIDER));
+            }
+            if (manejador.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
+                actualizaMejorLocaliz(manejador.getLastKnownLocation(
+                        LocationManager.NETWORK_PROVIDER));
+            }
+        }
+        else  {
+            solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION,
+                    "Sin el permiso localización no puedo mostrar la distancia"+
+                            " a los lugares.", SOLICITUD_PERMISO_LOCALIZACION, this);
         }
     }
 }
