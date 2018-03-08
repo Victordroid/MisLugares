@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\68c1a7d04a767b39cdd43435b0d1e20a\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:mediarouter-v7:26.1.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-26.1.0.aar\00f013cbf310d17b5a9962cb549d5f72\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\692bd75b663e4afc956c766f4af89ed3\AndroidManifest.xml:17:1-31:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Victor\.g
 MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\913a501936eb9888fbfe6ded74db3ea5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\0c8ab57ce2a44e204954aa5f7d446655\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Victor\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\a77d2abc9920da8739002df5d452e399\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
 	package
 		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:1-39:12
 		INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:2:11-69
@@ -134,6 +134,10 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:37:5-79
 	android:name
 		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:37:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:38:5-78
+	android:name
+		ADDED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml:38:22-76
 uses-sdk
 INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Victor\AndroidStudioProjects\MisLugares\app\src\main\AndroidManifest.xml

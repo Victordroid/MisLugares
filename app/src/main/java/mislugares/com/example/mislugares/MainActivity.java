@@ -1,21 +1,27 @@
 package mislugares.com.example.mislugares;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +29,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements LocationListener {
 
     private Button bAcercaDe;
     private Button bSalir;
@@ -37,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
     Bundle estado;
     private LocationManager manejador;
     private Location mejorLocaliz;
+    private static final int SOLICITUD_PERMISO_LOCALIZACION = 0;
+    private static final long DOS_MINUTOS = 2 * 60 * 1000;
+    protected static GeoPunto posicionActual = new GeoPunto(0,0);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,9 +63,8 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        mp = MediaPlayer.create(this, R.raw.audio);
-        mp.start();
-        //comentario
+        //mp = MediaPlayer.create(this, R.raw.audio);
+        //mp.start();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -175,11 +183,16 @@ public class MainActivity extends AppCompatActivity {
     @Override protected void onResume() {
         super.onResume();
         Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
+        activarProveedores();
     }
 
     @Override protected void onPause() {
         Toast.makeText(this, "onPause", Toast.LENGTH_SHORT).show();
         super.onPause();
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.
+                ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            manejador.removeUpdates(this);
+        }
     }
 
     @Override protected void onStop() {
@@ -229,6 +242,84 @@ public class MainActivity extends AppCompatActivity {
             solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION,
                     "Sin el permiso localización no puedo mostrar la distancia"+
                             " a los lugares.", SOLICITUD_PERMISO_LOCALIZACION, this);
+        }
+    }
+
+    public static void solicitarPermiso(final String permiso, String justificacion,
+                                        final int requestCode, final Activity actividad) {
+        if (ActivityCompat.shouldShowRequestPermissionRationale(actividad,
+                permiso)) {
+            new AlertDialog.Builder(actividad)
+                    .setTitle("Solicitud de permiso")
+                    .setMessage(justificacion)
+                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            ActivityCompat.requestPermissions(actividad,
+                                    new String[]{permiso}, requestCode);
+                        }
+                    })
+                    .show();
+        } else {
+            ActivityCompat.requestPermissions(actividad,
+                    new String[]{permiso}, requestCode);
+        }
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String[] permissions, int[] grantResults) {
+        if (requestCode == SOLICITUD_PERMISO_LOCALIZACION) {
+            if (grantResults.length== 1 &&
+                    grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                ultimaLocalizazion();
+                activarProveedores();
+                adaptador.notifyDataSetChanged();
+            }
+        }
+    }
+
+    private void activarProveedores() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.
+                ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            if (manejador.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                manejador.requestLocationUpdates(LocationManager.GPS_PROVIDER,
+                        20 * 1000, 5, this);
+            }
+            if (manejador.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
+                manejador.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
+                        10 * 1000, 10, this);
+            }
+        } else {
+            solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION,
+                    "Sin el permiso localización no puedo mostrar la distancia"+
+                            " a los lugares.", SOLICITUD_PERMISO_LOCALIZACION, this);
+        }
+    }
+    @Override public void onLocationChanged(Location location) {
+        Log.d(Lugares.TAG, "Nueva localización: "+location);
+        actualizaMejorLocaliz(location);
+        adaptador.notifyDataSetChanged();
+    }
+    @Override public void onProviderDisabled(String proveedor) {
+        Log.d(Lugares.TAG, "Se deshabilita: "+proveedor);
+        activarProveedores();
+    }
+    @Override   public void onProviderEnabled(String proveedor) {
+        Log.d(Lugares.TAG, "Se habilita: "+proveedor);
+        activarProveedores();
+    }
+    @Override
+    public void onStatusChanged(String proveedor, int estado, Bundle extras) {
+        Log.d(Lugares.TAG, "Cambia estado: "+proveedor);
+        activarProveedores();
+    }
+    private void actualizaMejorLocaliz(Location localiz) {
+        if (localiz != null && (mejorLocaliz == null
+                || localiz.getAccuracy() < 2*mejorLocaliz.getAccuracy()
+                || localiz.getTime() - mejorLocaliz.getTime() > DOS_MINUTOS)) {
+            Log.d(Lugares.TAG, "Nueva mejor localización");
+            mejorLocaliz = localiz;
+            Lugares.posicionActual.setLatitud(localiz.getLatitude());
+            Lugares.posicionActual.setLongitud(localiz.getLongitude());
         }
     }
 }

@@ -11,4 +11,6 @@ public interface Lugares {
     void borrar(int id); //Elimina el elemento con el id indicado
     int tamanyo(); //Devuelve el número de elementos
     void actualiza(int id, Lugar lugar); //Reemplaza un elemento
+    final static String TAG = "MisLugares";
+    final static GeoPunto posicionActual = new GeoPunto(0,0);
 }
