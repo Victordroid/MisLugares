@@ -131,6 +131,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             lanzarVistaLugar(null);
             return true;
         }
+        if (id==R.id.menu_mapa) {
+            Intent intent = new Intent(this, MapaActivity.class);
+            startActivity(intent);
+        }
         return super.onOptionsItemSelected(item);
     }
 

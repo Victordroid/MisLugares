@@ -33,7 +33,12 @@
         <activity android:name=".EdicionLugarActivity"
             android:label="Edición del lugar"
             android:theme="@style/AppTheme"/>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name="MapaActivity" android:screenOrientation="portrait"/>
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
 </manifest>
