@@ -31,6 +31,7 @@ public class EdicionLugarActivity extends AppCompatActivity {
     private EditText telefono;
     private EditText url;
     private EditText comentario;
+    private long _id;
 
 
     @Override
@@ -39,8 +40,14 @@ public class EdicionLugarActivity extends AppCompatActivity {
         setContentView(R.layout.edicion_lugar);
         Bundle extras = getIntent().getExtras();
         id_eleccion = extras.getLong("id", -1);
-        //System.out.println("VALOR DE ID_ELECCION: "+id_eleccion);
-        lugar = MainActivity.lugares.elemento((int) id_eleccion);
+        _id = extras.getLong("_id", -1);
+        if (_id!=-1) {
+            lugar = MainActivity.lugares.elemento((int) _id);
+        } else {
+            //System.out.println("VALOR DE ID_ELECCION: "+id_eleccion);
+            //lugar = MainActivity.lugares.elemento((int) id_eleccion);
+            lugar = MainActivity.adaptador.lugarPosicion((int) id_eleccion);
+        }
 
         nombre = (EditText) findViewById(R.id.nombre);
         nombre.setText(lugar.getNombre());
@@ -78,7 +85,17 @@ public class EdicionLugarActivity extends AppCompatActivity {
         int opcion = menu.getItemId();
         switch (opcion) {
             case R.id.guardar:
-                /*cosas de guardar*/
+                if (_id==-1) {
+                    _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+                    /*cosas de guardar*/
+                }
+                MainActivity.lugares.actualiza((int) _id, lugar);
+                MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+                if (id_eleccion!=-1) {
+                    MainActivity.adaptador.notifyItemChanged((int) id_eleccion);
+                } else {
+                    MainActivity.adaptador.notifyDataSetChanged();
+                }
                 Guardar();
                 return true;
             case R.id.cancelar:
@@ -96,7 +113,10 @@ public class EdicionLugarActivity extends AppCompatActivity {
         lugar.setTelefono(Integer.parseInt(telefono.getText().toString()));
         lugar.setUrl(url.getText().toString());
         lugar.setComentario(comentario.getText().toString());
-        MainActivity.lugares.actualiza((int) id_eleccion,lugar);
+        //MainActivity.lugares.actualiza((int) id_eleccion,lugar);
+        int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+        MainActivity.lugares.actualiza((int) _id, lugar);
+        MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
         finish();
     }
 }

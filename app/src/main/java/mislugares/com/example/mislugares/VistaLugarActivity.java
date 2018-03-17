@@ -143,7 +143,8 @@ public class VistaLugarActivity extends AppCompatActivity {
     }
 
     private void actualizarVistas(){
-        lugar = MainActivity.lugares.elemento((int) id_eleccion);
+        //lugar = MainActivity.lugares.elemento((int) id_eleccion);
+        lugar= MainActivity.adaptador.lugarPosicion((int) id_eleccion);
         TextView nombre = (TextView) findViewById(R.id.nombre);
         nombre.setText(lugar.getNombre());
         ImageView logo_tipo = (ImageView) findViewById(R.id.logo_tipo);
@@ -196,7 +197,16 @@ public class VistaLugarActivity extends AppCompatActivity {
                         lugar.setValoracion(valor);
                     }
                 });
+        actualizaLugar();
         ponerFoto(imageView, lugar.getFoto());
+        actualizaLugar();
+    }
+
+    void actualizaLugar(){
+        int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+        MainActivity.lugares.actualiza(_id, lugar);
+        MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+        MainActivity.adaptador.notifyItemChanged((int) id_eleccion);
     }
 
     public void galeria(View view) {

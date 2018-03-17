@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sat Mar 17 10:25:36 CET 2018
+=======
+#Fri Mar 16 12:37:56 CET 2018
+>>>>>>> U8
 path.1=classes.dex
 path.0=classes.dex
 renamed.5=classes6.dex

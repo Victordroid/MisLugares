@@ -33,9 +33,11 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     private Button bAcercaDe;
     private Button bSalir;
-    public static Lugares lugares = new LugaresVector();
+    //public static Lugares lugares = new LugaresVector();
+    public static LugaresBD lugares;
+    public static AdaptadorLugaresBD adaptador;
+    //public AdaptadorLugares adaptador;
     private RecyclerView recyclerView;
-    public AdaptadorLugares adaptador;
     private RecyclerView.LayoutManager layoutManager;
     MediaPlayer mp;
     String var;
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private static final int SOLICITUD_PERMISO_LOCALIZACION = 0;
     private static final long DOS_MINUTOS = 2 * 60 * 1000;
     protected static GeoPunto posicionActual = new GeoPunto(0,0);
+    static final int RESULTADO_PREFERENCIAS = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,11 +57,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        lugares = new LugaresBD(this);
 
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show();
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        adaptador = new AdaptadorLugares(this, lugares);
+        adaptador = new AdaptadorLugaresBD(this, lugares, lugares.extraeCursor());
         recyclerView.setAdapter(adaptador);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -70,8 +74,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                long _id = lugares.nuevo();
+                Intent i = new Intent(MainActivity.this, EdicionLugarActivity.class);
+                i.putExtra("_id", _id);
+                startActivity(i);
             }
         });
 
@@ -148,8 +154,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     }
 
     public void lanzarPreferencias (View view){
+        /*Intent i = new Intent(this, PreferenciasActivity.class);
+        startActivity(i);*/
         Intent i = new Intent(this, PreferenciasActivity.class);
-        startActivity(i);
+        startActivityForResult(i, RESULTADO_PREFERENCIAS);
     }
 
     public void mostrarPreferencias(View view){
@@ -324,6 +332,14 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             mejorLocaliz = localiz;
             Lugares.posicionActual.setLatitud(localiz.getLatitude());
             Lugares.posicionActual.setLongitud(localiz.getLongitude());
+        }
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode,
+                                    Intent data) {
+        if (requestCode == RESULTADO_PREFERENCIAS) {
+            adaptador.setCursor(MainActivity.lugares.extraeCursor());
+            adaptador.notifyDataSetChanged();
         }
     }
 }
