@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
+            "outputFile": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-land-v4\\values-xlarge-land-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\values-xlarge-land\\dimens.xml",
+                    "source": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\src\\main\\res\\values-xlarge-land\\dimens.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
