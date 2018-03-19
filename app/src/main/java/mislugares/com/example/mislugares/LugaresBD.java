@@ -91,9 +91,10 @@ public class LugaresBD extends SQLiteOpenHelper implements Lugares{
         return _id;
     }
 
-    @Override
     public void borrar(int id) {
-
+        SQLiteDatabase bd = getWritableDatabase();
+        bd.execSQL("DELETE FROM lugares WHERE _id = " + id );
+        bd.close();
     }
 
     @Override
