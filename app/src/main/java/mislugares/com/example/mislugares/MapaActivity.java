@@ -44,8 +44,8 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
         }
 
         //if (MainActivity.lugares.tamanyo() > 0) {
-        if (MainActivity.adaptador.getItemCount() > 0) {
-                GeoPunto p = MainActivity.adaptador.lugarPosicion(0).getPosicion();
+        if (SelectorFragment.adaptador.getItemCount() > 0) {
+                GeoPunto p = SelectorFragment.adaptador.lugarPosicion(0).getPosicion();
                 //GeoPunto p = MainActivity.lugares.elemento(0).getPosicion();
                 mapa.moveCamera(CameraUpdateFactory.newLatLngZoom(
                         new LatLng(p.getLatitud(), p.getLongitud()), 12));
@@ -53,8 +53,8 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
         }
         //for (int n=0; n<MainActivity.lugares.tamanyo(); n++) {
             //Lugar lugar = MainActivity.lugares.elemento(n);
-        for (int n=0; n<MainActivity.adaptador.getItemCount(); n++) {
-            Lugar lugar = MainActivity.adaptador.lugarPosicion(n);
+        for (int n=0; n<SelectorFragment.adaptador.getItemCount(); n++) {
+            Lugar lugar = SelectorFragment.adaptador.lugarPosicion(n);
             GeoPunto p = lugar.getPosicion();
             if (p != null && p.getLatitud() != 0) {
                 BitmapDrawable iconoDrawable = (BitmapDrawable) getResources()
@@ -74,8 +74,8 @@ public class MapaActivity extends FragmentActivity implements OnMapReadyCallback
     @Override public void onInfoWindowClick(Marker marker) {
         //for (int id=0; id<MainActivity.lugares.tamanyo(); id++){
             //if (MainActivity.lugares.elemento(id). getNombre()
-        for (int id=0; id<MainActivity.adaptador.getItemCount(); id++) {
-            if (MainActivity.adaptador.lugarPosicion(id).getNombre()
+        for (int id=0; id<SelectorFragment.adaptador.getItemCount(); id++) {
+            if (SelectorFragment.adaptador.lugarPosicion(id).getNombre()
                     .equals(marker.getTitle())){
                 Intent intent = new Intent(this, VistaLugarActivity.class);
                 intent.putExtra("id", (long)id);

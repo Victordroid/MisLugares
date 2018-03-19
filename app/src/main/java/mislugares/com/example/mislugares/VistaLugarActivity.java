@@ -59,9 +59,9 @@ public class VistaLugarActivity extends AppCompatActivity {
                 .setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         MainActivity.lugares.borrar(id_eleccion);
-                        MainActivity.adaptador.setCursor(
+                        SelectorFragment.adaptador.setCursor(
                                 MainActivity.lugares.extraeCursor());
-                        MainActivity.adaptador.notifyDataSetChanged();
+                        SelectorFragment.adaptador.notifyDataSetChanged();
                         finish();
                     }})
                 .setNegativeButton("Cancelar", null)
@@ -90,7 +90,7 @@ public class VistaLugarActivity extends AppCompatActivity {
                 startActivityForResult(i, RESULTADO_EDITAR);
                 return true;
             case R.id.accion_borrar:
-                int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+                int _id = SelectorFragment.adaptador.idPosicion((int) id_eleccion);
                 borrarLugar(_id);
                 return true;
             default:
@@ -147,7 +147,7 @@ public class VistaLugarActivity extends AppCompatActivity {
 
     private void actualizarVistas(){
         //lugar = MainActivity.lugares.elemento((int) id_eleccion);
-        lugar= MainActivity.adaptador.lugarPosicion((int) id_eleccion);
+        lugar= SelectorFragment.adaptador.lugarPosicion((int) id_eleccion);
         TextView nombre = (TextView) findViewById(R.id.nombre);
         nombre.setText(lugar.getNombre());
         ImageView logo_tipo = (ImageView) findViewById(R.id.logo_tipo);
@@ -207,10 +207,10 @@ public class VistaLugarActivity extends AppCompatActivity {
     }
 
     void actualizaLugar(){
-        int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+        int _id = SelectorFragment.adaptador.idPosicion((int) id_eleccion);
         MainActivity.lugares.actualiza(_id, lugar);
-        MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
-        MainActivity.adaptador.notifyItemChanged((int) id_eleccion);
+        SelectorFragment.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+        SelectorFragment.adaptador.notifyItemChanged((int) id_eleccion);
     }
 
     public void galeria(View view) {

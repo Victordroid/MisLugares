@@ -46,7 +46,7 @@ public class EdicionLugarActivity extends AppCompatActivity {
         } else {
             //System.out.println("VALOR DE ID_ELECCION: "+id_eleccion);
             //lugar = MainActivity.lugares.elemento((int) id_eleccion);
-            lugar = MainActivity.adaptador.lugarPosicion((int) id_eleccion);
+            lugar = SelectorFragment.adaptador.lugarPosicion((int) id_eleccion);
         }
 
         nombre = (EditText) findViewById(R.id.nombre);
@@ -86,15 +86,15 @@ public class EdicionLugarActivity extends AppCompatActivity {
         switch (opcion) {
             case R.id.guardar:
                 if (_id==-1) {
-                    _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+                    _id = SelectorFragment.adaptador.idPosicion((int) id_eleccion);
                     /*cosas de guardar*/
                 }
                 MainActivity.lugares.actualiza((int) _id, lugar);
-                MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+                SelectorFragment.adaptador.setCursor(MainActivity.lugares.extraeCursor());
                 if (id_eleccion!=-1) {
-                    MainActivity.adaptador.notifyItemChanged((int) id_eleccion);
+                    SelectorFragment.adaptador.notifyItemChanged((int) id_eleccion);
                 } else {
-                    MainActivity.adaptador.notifyDataSetChanged();
+                    SelectorFragment.adaptador.notifyDataSetChanged();
                 }
                 Guardar();
                 return true;
@@ -118,9 +118,9 @@ public class EdicionLugarActivity extends AppCompatActivity {
         lugar.setUrl(url.getText().toString());
         lugar.setComentario(comentario.getText().toString());
         //MainActivity.lugares.actualiza((int) id_eleccion,lugar);
-        int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+        int _id = SelectorFragment.adaptador.idPosicion((int) id_eleccion);
         MainActivity.lugares.actualiza(_id, lugar);
-        MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+        SelectorFragment.adaptador.setCursor(MainActivity.lugares.extraeCursor());
         finish();
     }
 }
