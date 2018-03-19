@@ -59,7 +59,9 @@ public class VistaLugarActivity extends AppCompatActivity {
                 .setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         MainActivity.lugares.borrar(id_eleccion);
-
+                        MainActivity.adaptador.setCursor(
+                                MainActivity.lugares.extraeCursor());
+                        MainActivity.adaptador.notifyDataSetChanged();
                         finish();
                     }})
                 .setNegativeButton("Cancelar", null)
@@ -88,7 +90,8 @@ public class VistaLugarActivity extends AppCompatActivity {
                 startActivityForResult(i, RESULTADO_EDITAR);
                 return true;
             case R.id.accion_borrar:
-                borrarLugar((int)id_eleccion);
+                int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
+                borrarLugar(_id);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -195,6 +198,7 @@ public class VistaLugarActivity extends AppCompatActivity {
                     @Override public void onRatingChanged(RatingBar ratingBar,
                                                           float valor, boolean fromUser) {
                         lugar.setValoracion(valor);
+                        actualizaLugar();
                     }
                 });
         actualizaLugar();

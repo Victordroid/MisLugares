@@ -55,14 +55,15 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_main);
+        lugares = new LugaresBD(this);
+        adaptador = new AdaptadorLugaresBD(this, lugares, lugares.extraeCursor());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        lugares = new LugaresBD(this);
+
 
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show();
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        adaptador = new AdaptadorLugaresBD(this, lugares, lugares.extraeCursor());
         recyclerView.setAdapter(adaptador);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

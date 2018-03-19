@@ -100,6 +100,10 @@ public class EdicionLugarActivity extends AppCompatActivity {
                 return true;
             case R.id.cancelar:
                 /*cosas de cancelar*/
+                if (_id!=-1) {
+                    MainActivity.lugares.borrar((int) _id);
+                }
+                finish();
                 return true;
         }
         return true;
@@ -115,7 +119,7 @@ public class EdicionLugarActivity extends AppCompatActivity {
         lugar.setComentario(comentario.getText().toString());
         //MainActivity.lugares.actualiza((int) id_eleccion,lugar);
         int _id = MainActivity.adaptador.idPosicion((int) id_eleccion);
-        MainActivity.lugares.actualiza((int) _id, lugar);
+        MainActivity.lugares.actualiza(_id, lugar);
         MainActivity.adaptador.setCursor(MainActivity.lugares.extraeCursor());
         finish();
     }
