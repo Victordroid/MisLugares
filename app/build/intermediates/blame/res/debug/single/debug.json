@@ -131,6 +131,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_17_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_27_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_27_light.png"
 =======
@@ -141,13 +142,15 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_dark.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-10.2.1.aar\\6ee1f99bde0b03341acc3f4d88aefda4\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
 >>>>>>> U8
     },
     {
-        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_29_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_29_dark.png"
     },
     {
 <<<<<<< HEAD
@@ -163,6 +166,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_media_pause_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-hdpi-v4\\ic_media_pause_dark.png"
 >>>>>>> U8
@@ -174,10 +178,22 @@
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_media_pause_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-hdpi-v4\\ic_media_pause_dark.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
@@ -250,6 +266,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_21_dark.png"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_stop_dark.png.flat",
@@ -265,10 +282,13 @@
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mr_button_connected_dark.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable\\mr_button_connected_dark.xml"
 =======
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_21_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_21_dark.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_18_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_18_light.png"
 >>>>>>> U8
@@ -276,6 +296,14 @@
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_media_stop_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_media_stop_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_18_light.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_18_light.png"
+>>>>>>> U8Fragments
     },
     {
 <<<<<<< HEAD
@@ -284,6 +312,10 @@
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_08_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_08_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_27_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_27_dark.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_15_light.png.flat",
@@ -329,6 +361,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
 =======
@@ -342,8 +375,14 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -376,14 +415,21 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_02_dark.png"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_04_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_04_dark.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_02_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_02_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_04_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_04_dark.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -473,14 +519,21 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_24_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_24_light.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_24_light.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_24_light.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -521,6 +574,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_20_light.png"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_29_light.png.flat",
@@ -541,10 +595,13 @@
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_23_dark.png"
 =======
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_20_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_20_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color-v23\\abc_btn_colored_text_material.xml"
 >>>>>>> U8
@@ -555,6 +612,14 @@
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_26_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_26_light.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_29_light.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_29_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\color-v23\\abc_btn_colored_text_material.xml"
+>>>>>>> U8Fragments
     },
     {
 <<<<<<< HEAD
@@ -570,6 +635,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_23_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
 >>>>>>> U8
@@ -581,10 +647,22 @@
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_17_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_17_light.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_26_light.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_26_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_00_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_00_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_17_light.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_17_light.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -662,6 +740,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\68c1a7d04a767b39cdd43435b0d1e20a\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_21_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_21_dark.png"
 =======
@@ -669,8 +748,14 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-mdpi-v4\\ic_media_play_dark.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_29_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_29_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_media_play_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-mdpi-v4\\ic_media_play_dark.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_00_light.png.flat",
@@ -755,12 +840,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_23_dark.png"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -768,12 +858,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_15_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connecting_15_light.png"
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_23_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_23_dark.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connecting_12_light.png.flat",
@@ -849,6 +944,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_21_dark.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -860,8 +956,14 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_audiotrack_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-mdpi-v4\\ic_audiotrack_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -980,14 +1082,21 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_01.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_01.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_01.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_01.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_14.png.flat",
@@ -1003,6 +1112,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_04_dark.png"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
@@ -1026,8 +1136,14 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\anim\\abc_fade_in.xml"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_06_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_06_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -1064,14 +1180,21 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> U8
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_15_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_15_dark.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_15_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_15_dark.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_07_light.png.flat",
@@ -1184,12 +1307,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1197,12 +1325,17 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
@@ -1340,8 +1473,17 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_selector.xml.flat",
+        "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\layout\\fragment_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
@@ -1406,6 +1548,7 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_12_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_30_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connecting_30_dark.png"
 =======
@@ -1413,8 +1556,14 @@
         "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\drawable\\otros.png"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_otros.png.flat",
+        "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\drawable\\otros.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
@@ -1471,6 +1620,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-10.2.1.aar\\6ee1f99bde0b03341acc3f4d88aefda4\\res\\drawable\\common_google_signin_btn_text_dark.xml"
 >>>>>>> U8
@@ -1491,10 +1641,13 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+=======
+>>>>>>> U8Fragments
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-10.2.1.aar\\6ee1f99bde0b03341acc3f4d88aefda4\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
 >>>>>>> U8
@@ -1502,6 +1655,14 @@
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0c8ab57ce2a44e204954aa5f7d446655\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+>>>>>>> U8Fragments
     },
     {
 <<<<<<< HEAD
@@ -1510,6 +1671,10 @@
 =======
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_tint.xml.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-10.2.1.aar\\6ee1f99bde0b03341acc3f4d88aefda4\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_mr_button_connected_21_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xhdpi-v4\\ic_mr_button_connected_21_dark.png"
     },
     {
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -1523,6 +1688,7 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
 =======
@@ -1533,12 +1699,17 @@
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_mi_icono_round.png.flat",
         "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\mipmap-xhdpi\\ic_mi_icono_round.png"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_26_dark.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_26_dark.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_15.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxxhdpi-v4\\ic_group_collapse_15.png"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_group_collapse_02.png.flat",
@@ -1551,6 +1722,10 @@
         "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_26_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_26_dark.png"
 >>>>>>> U8
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_mi_icono_round.png.flat",
+        "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\mipmap-xhdpi\\ic_mi_icono_round.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_30_dark.png.flat",
@@ -2163,8 +2338,17 @@
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_media_stop_light.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connected_05_dark.png.flat",
         "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\00f013cbf310d17b5a9962cb549d5f72\\res\\drawable-xxhdpi-v4\\ic_mr_button_connected_05_dark.png"
+=======
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_content_main.xml.flat",
+        "source": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\src\\main\\res\\layout-sw600dp\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Victor\\AndroidStudioProjects\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\Victor\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\692bd75b663e4afc956c766f4af89ed3\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+>>>>>>> U8Fragments
     },
     {
         "merged": "C:\\Users\\Victor\\Documents\\GitHub\\MisLugares\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_mr_button_connecting_07_light.png.flat",

@@ -33,12 +33,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
     private Button bAcercaDe;
     private Button bSalir;
-    //public static Lugares lugares = new LugaresVector();
     public static LugaresBD lugares;
-    public static AdaptadorLugaresBD adaptador;
-    //public AdaptadorLugares adaptador;
-    private RecyclerView recyclerView;
-    private RecyclerView.LayoutManager layoutManager;
     MediaPlayer mp;
     String var;
     int pos;
@@ -49,28 +44,22 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     private static final long DOS_MINUTOS = 2 * 60 * 1000;
     protected static GeoPunto posicionActual = new GeoPunto(0,0);
     static final int RESULTADO_PREFERENCIAS = 0;
+    private VistaLugarFragment fragmentVista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
+        fragmentVista = (VistaLugarFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.vista_lugar_fragment);
         setContentView(R.layout.activity_main);
         lugares = new LugaresBD(this);
-        adaptador = new AdaptadorLugaresBD(this, lugares, lugares.extraeCursor());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show();
-
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.setAdapter(adaptador);
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-
         //mp = MediaPlayer.create(this, R.raw.audio);
         //mp.start();
-
+        fragmentVista = (VistaLugarFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.vista_lugar_fragment);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,15 +87,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                                     ///  }
                                  // }
         //);
-
-        adaptador.setOnItemClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, VistaLugarActivity.class);
-                i.putExtra("id", (long) recyclerView.getChildAdapterPosition(v));
-                startActivity(i);
-            }
-        });
         manejador = (LocationManager) getSystemService(LOCATION_SERVICE);
         ultimaLocalizazion();
     }
@@ -197,6 +177,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onResume();
         Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
         activarProveedores();
+        if (fragmentVista!=null && SelectorFragment.adaptador.getItemCount()>0) {
+            fragmentVista.actualizarVistas(0);
+        }
     }
 
     @Override protected void onPause() {
@@ -285,7 +268,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                     grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 ultimaLocalizazion();
                 activarProveedores();
-                adaptador.notifyDataSetChanged();
+                SelectorFragment.adaptador.notifyDataSetChanged();
             }
         }
     }
@@ -310,7 +293,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     @Override public void onLocationChanged(Location location) {
         Log.d(Lugares.TAG, "Nueva localización: "+location);
         actualizaMejorLocaliz(location);
-        adaptador.notifyDataSetChanged();
+        SelectorFragment.adaptador.notifyDataSetChanged();
     }
     @Override public void onProviderDisabled(String proveedor) {
         Log.d(Lugares.TAG, "Se deshabilita: "+proveedor);
@@ -339,8 +322,17 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     protected void onActivityResult(int requestCode, int resultCode,
                                     Intent data) {
         if (requestCode == RESULTADO_PREFERENCIAS) {
-            adaptador.setCursor(MainActivity.lugares.extraeCursor());
-            adaptador.notifyDataSetChanged();
+            SelectorFragment.adaptador.setCursor(MainActivity.lugares.extraeCursor());
+            SelectorFragment.adaptador.notifyDataSetChanged();
+        }
+    }
+    public void muestraLugar(long id) {
+        if (fragmentVista != null) {
+            fragmentVista.actualizarVistas(id);
+        } else {
+            Intent intent = new Intent(this, VistaLugarActivity.class);
+            intent.putExtra("id", id);
+            startActivityForResult(intent, 0);
         }
     }
 }
