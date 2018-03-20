@@ -1,6 +1,7 @@
 package mislugares.com.example.mislugares;
 
 import android.app.Activity;
+import android.app.TimePickerDialog;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -20,9 +21,12 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import android.view.View.OnClickListener;
 
@@ -31,7 +35,7 @@ import android.view.View.OnClickListener;
  * Created by Victor on 01/03/2018.
  */
 
-public class VistaLugarFragment extends Fragment {
+public class VistaLugarFragment extends Fragment implements TimePickerDialog.OnTimeSetListener {
     private long id_eleccion;
     private Lugar lugar;
     final static int RESULTADO_EDITAR = 1;
@@ -57,6 +61,13 @@ public class VistaLugarFragment extends Fragment {
         telefono.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view){
                 llamadaTelefono(null);
+            }
+        });
+
+        ImageView iconoHora = (ImageView) vista.findViewById(R.id.icono_hora);
+        iconoHora.setOnClickListener(new OnClickListener() {
+            public void onClick(View view) {
+                cambiarHora();
             }
         });
 
@@ -291,5 +302,27 @@ public class VistaLugarFragment extends Fragment {
     public void eliminarFoto(View view) {
         lugar.setFoto(null);
         ponerFoto((ImageView)v.findViewById(R.id.foto), null);
+    }
+
+    public void cambiarHora() {
+        DialogoSelectorHora dialogo = new DialogoSelectorHora();
+        dialogo.setOnTimeSetListener(this);
+        Bundle args = new Bundle();
+        args.putLong("fecha", lugar.getFecha());
+        dialogo.setArguments(args);
+        dialogo.show(getActivity().getSupportFragmentManager(), "selectorHora");
+    }
+    @Override
+    public void onTimeSet(TimePicker vista, int hora, int minuto) {
+        Calendar calendario = Calendar.getInstance();
+        calendario.setTimeInMillis(lugar.getFecha());
+        calendario.set(Calendar.HOUR_OF_DAY, hora);
+        calendario.set(Calendar.MINUTE, minuto);
+        lugar.setFecha(calendario.getTimeInMillis());
+        actualizaLugar();
+        TextView tHora = (TextView) getView().findViewById(R.id.hora);
+        SimpleDateFormat formato = new SimpleDateFormat("HH:mm",
+                java.util.Locale.getDefault());
+        tHora.setText(formato.format(new Date(lugar.getFecha())));
     }
 }

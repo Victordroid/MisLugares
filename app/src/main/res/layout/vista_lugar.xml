@@ -98,6 +98,13 @@
                 android:layout_weight="1"
                 android:text="hora"
                 android:textAppearance="?android:attr/textAppearance" />
+
+            <ImageView
+                android:id="@+id/icono_hora"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="logo del tipo"
+                android:src="@android:drawable/ic_menu_recent_history" />
         </LinearLayout>
 
         <RatingBar
