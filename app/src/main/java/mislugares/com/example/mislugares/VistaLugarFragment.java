@@ -45,12 +45,21 @@ public class VistaLugarFragment extends Fragment {
                              Bundle savedInstanceState) {
         View vista = inflador.inflate(R.layout.vista_lugar,contenedor,false);
         setHasOptionsMenu(true);
-        LinearLayout pUrl = (LinearLayout) vista.findViewById(R.id.url);
+
+        TextView pUrl = vista.findViewById((R.id.url));
         pUrl.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 pgWeb(null);
             }
         });
+
+        TextView telefono = vista.findViewById((R.id.telefono));
+        telefono.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view){
+                llamadaTelefono(null);
+            }
+        });
+
         return vista;
     }
 
@@ -84,7 +93,14 @@ public class VistaLugarFragment extends Fragment {
                         SelectorFragment.adaptador.setCursor(
                                 MainActivity.lugares.extraeCursor());
                         SelectorFragment.adaptador.notifyDataSetChanged();
-                        getActivity().finish();
+                        //getActivity().finish();
+                        SelectorFragment selectorFragment = (SelectorFragment) getActivity().
+                                getSupportFragmentManager().findFragmentById(R.id.selector_fragment);
+                        if (selectorFragment == null) {
+                            getActivity().finish();
+                        } else {
+                            ((MainActivity) getActivity()).muestraLugar(0);
+                        }
                     }})
                 .setNegativeButton("Cancelar", null)
                 .show();

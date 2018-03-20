@@ -177,6 +177,9 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         super.onResume();
         Toast.makeText(this, "onResume", Toast.LENGTH_SHORT).show();
         activarProveedores();
+        if (fragmentVista!=null && SelectorFragment.adaptador.getItemCount()>0) {
+            fragmentVista.actualizarVistas(0);
+        }
     }
 
     @Override protected void onPause() {

@@ -11,10 +11,4 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1" />
-    <fragment
-        android:id="@+id/vista_lugar_fragment"
-        android:name="mislugares.com.example.mislugares.VistaLugarFragment"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"/>
 </LinearLayout>
